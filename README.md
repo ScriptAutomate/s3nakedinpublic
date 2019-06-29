@@ -10,7 +10,7 @@ What do these articles above have in common? This is lingo for AWS S3 buckets co
 
 ## Resources
 
-* A robust-looking tool for S3 inspection that looks beyond the simple ACL lookup s3nakedinpublic examples use, which may be the best place to look next: https://github.com/kromtech/s3-inspector
+* A robust-looking tool for S3 inspection that looks beyond the simple ACL lookup s3nakedinpublic examples use, which may be the best place to look next (though it hasn't been updated in over a year, keep in mind): https://github.com/kromtech/s3-inspector
 * A repo hosting a report of AWS S3 "leaks" that have happened over time: https://github.com/nagwww/s3-leaks
 * Rapid7 Blog Article from 2013: [There's a Hole in 1,951 Amazon S3 Buckets](https://blog.rapid7.com/2013/03/27/open-s3-buckets/) (You can be certain the number is much higher now...)
 * Some good articles by AWS themselves about securing S3: [How can I secure the files in my Amazon S3 bucket?](https://aws.amazon.com/premiumsupport/knowledge-center/secure-s3-resources/) and [Using Amazon S3 Block Public Access](https://docs.aws.amazon.com/AmazonS3/latest/dev/access-control-block-public-access.html)
