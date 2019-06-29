@@ -14,7 +14,9 @@ What do these articles above have in common? This is lingo for AWS S3 buckets co
 
 Let's say we have a bucket, and it has a Public access ACL granted to it.
 
-Running one of my examples, the shell script (which is wrapped around AWSCLI):
+### Bash Shell Script Example
+
+Running one of my examples, the shell script (which is wrapped around [AWSCLI](https://aws.amazon.com/cli/)):
 
 ```
 ./s3nakedinpublic.sh
@@ -38,6 +40,14 @@ The dead giveaway is the "Public" icon:
 Within the ACL permissions of the bucket, we would see something like this:
 
 ![alt text](https://github.com/ScriptAutomate/s3nakedinpublic/blob/master/imgs/public-access-acl.png "S3 Public Access ACL")
+
+How do you fix this? AWS has made this as easy as possible. Here it can be changed on the bucket itself:
+
+![alt text](https://github.com/ScriptAutomate/s3nakedinpublic/blob/master/imgs/aws-s3-bucket-specific-block-public.gif "S3 Block Public Access to Bucket")
+
+You can also do this with less running around, and in bulk:
+
+![alt text](https://github.com/ScriptAutomate/s3nakedinpublic/blob/master/imgs/aws-s3-bulk-bucket-block-public.gif "S3 Bulk Block Public Access to Buckets")
 
 How do you fix this? AWS has made this as easy as possible. Here it can be changed on the bucket itself:
 
