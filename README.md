@@ -61,14 +61,24 @@ And the ACL would now look something like this:
 
 ![alt text](https://github.com/ScriptAutomate/s3nakedinpublic/blob/master/imgs/public-access-acl-blocked.png "S3 Public Access ACL Blocked")
 
-## Resources
+## Best Practice
+
+There should be some kind of monitoring implemented in an account in order to alert in the event that a bucket has modifications where itself or contents gain public access, or if new buckets are made with public permissions.
+
+Some resources to look at:
+
+* [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)
+* [Security Monkey](https://github.com/Netflix/security_monkey)
+* [AWS Security Hub](https://aws.amazon.com/security-hub/)
+
+## Additional Resources
 
 * A robust-looking tool for S3 inspection that looks beyond the simple ACL lookup s3nakedinpublic examples use, which may be the best place to look next (though it hasn't been updated in over a year, keep in mind): https://github.com/kromtech/s3-inspector
 * A repo hosting a report of AWS S3 "leaks" that have happened over time: https://github.com/nagwww/s3-leaks
 * Rapid7 Blog Article from 2013: [There's a Hole in 1,951 Amazon S3 Buckets](https://blog.rapid7.com/2013/03/27/open-s3-buckets/) (You can be certain the number is much higher now...)
 * Some good articles by AWS themselves about securing S3: [How can I secure the files in my Amazon S3 bucket?](https://aws.amazon.com/premiumsupport/knowledge-center/secure-s3-resources/) and [Using Amazon S3 Block Public Access](https://docs.aws.amazon.com/AmazonS3/latest/dev/access-control-block-public-access.html)
 
-### Scan and Dump Tool Examples
+#### Scan and Dump Tool Examples
 
 * https://github.com/sa7mon/S3Scanner
 * https://github.com/jordanpotti/AWSBucketDump
