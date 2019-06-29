@@ -2,6 +2,8 @@
 
 Example Code to List all S3 buckets, in the default region config, that have 'Public' permissions listed anywhere in the ACL.
 
+> ***NOTE:** These are code examples created back in 2018. They should be tested before use. I'm open to accepting PRs to improve them. This repository was created with minimalist examples that can work as a place to start.*
+
 There are multiple news articles that continue to come out about **"leaky AWS S3"** ([AWS S3 server leaks data from Fortune 100 companies: Ford, Netflix, TD Bank](https://www.zdnet.com/article/aws-s3-server-leaks-data-from-fortune-100-companies-ford-netflix-td-bank/)) or **"leaving a server unsecured"** and S3 configurations **"without a password"** ([A Washington ISP exposed the 'keys to the kingdom' after leaving a server unsecured](https://techcrunch.com/2018/10/23/washington-isp-pocketinet-server-leak/)).
 
 [Apple](https://medium.com/@jonathanbouman/how-i-hacked-apple-com-unrestricted-file-upload-bcda047e27e3) (which had a URI Grant access to ..global/AllUsers as my example code looks for), along with many other companies, have messed up with this before.
@@ -19,5 +21,3 @@ What do these articles above have in common? This is lingo for AWS S3 buckets co
 
 * https://github.com/sa7mon/S3Scanner
 * https://github.com/jordanpotti/AWSBucketDump
-
-> ***NOTE:** These are code examples created back in 2018. They should be tested before use. I'm open to accepting PRs to improve them. This repository was created with minimalist examples that can work as a place to start.*
