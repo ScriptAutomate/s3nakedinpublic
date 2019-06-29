@@ -49,10 +49,6 @@ You can also do this with less running around, and in bulk:
 
 ![alt text](https://github.com/ScriptAutomate/s3nakedinpublic/blob/master/imgs/aws-s3-bulk-bucket-block-public.gif "S3 Bulk Block Public Access to Buckets")
 
-How do you fix this? AWS has made this as easy as possible. Here it can be changed on the bucket itself:
-
-![alt text](https://github.com/ScriptAutomate/s3nakedinpublic/blob/master/imgs/aws-s3-bucket-specific-block-public.gif "S3 Block Public Access to Bucket")
-
 You can also do this account wide, but you'd have to be absolutely certain that this won't be breaking functionality where this has been done intentionally for serving files for download or other purposes:
 
 ![alt text](https://github.com/ScriptAutomate/s3nakedinpublic/blob/master/imgs/aws-s3-account-wide-bucket-block-public.gif "S3 Block Public Access to Buckets Account Wide")
