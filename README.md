@@ -1,6 +1,6 @@
 # S3 Naked In Public
 
-Example Code to List all S3 buckets, in the default region config, that have 'Public' permissions listed anywhere in the ACL.
+Example Code to List all S3 buckets, in the default region config, that have URI Grant access to ..global/AllUsers permissions listed in the ACL.
 
 > ***NOTE:** These are code examples created back in 2018. They should be tested before use. I'm open to accepting PRs to improve them. This repository was created with minimalist examples that can work as a place to start.*
 
