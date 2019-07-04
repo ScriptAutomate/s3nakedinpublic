@@ -1,5 +1,7 @@
 # S3 Naked In Public
 
+![S3NakedInPublic Banner](https://github.com/ScriptAutomate/s3nakedinpublic/blob/master/imgs/s3nakedinpublic-banner.jpg)
+
 Example Code to List all S3 buckets, in the default region config, that have URI Grant access to ..global/AllUsers permissions listed in the ACL.
 
 > ***NOTE:** These are code examples created back in 2018. They should be tested before use. I'm open to accepting PRs to improve them. This repository was created with minimalist examples that can work as a place to start.*
@@ -28,6 +30,8 @@ This example script will output any buckets with Public (specifically, global/Al
 ./s3nakedinpublic.sh
 uhohthisisbad
 ```
+
+### Walking Through The AWS Management Console
 
 In this case, `uhohthisisbad` is an S3 bucket that it found. What does that look like from the AWS console? For one, you can sort by "Public" buckets:
 
@@ -78,7 +82,7 @@ Some resources to look at:
 * Rapid7 Blog Article from 2013: [There's a Hole in 1,951 Amazon S3 Buckets](https://blog.rapid7.com/2013/03/27/open-s3-buckets/) (You can be certain the number is much higher now...)
 * Some good articles by AWS themselves about securing S3: [How can I secure the files in my Amazon S3 bucket?](https://aws.amazon.com/premiumsupport/knowledge-center/secure-s3-resources/) and [Using Amazon S3 Block Public Access](https://docs.aws.amazon.com/AmazonS3/latest/dev/access-control-block-public-access.html)
 
-#### Scan and Dump Tool Examples
+### Scan and Dump Tool Examples
 
 * https://github.com/sa7mon/S3Scanner
 * https://github.com/jordanpotti/AWSBucketDump
